@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		6756CD6CCDAE9113C3FE1A35 /* libPods-GCDProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D7A85D01A0E7B810CE4B74 /* libPods-GCDProject.a */; };
 		9F0C4BCB207EFD5300DCAA27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C4BCA207EFD5300DCAA27 /* AppDelegate.m */; };
-		9F0C4BCE207EFD5300DCAA27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C4BCD207EFD5300DCAA27 /* ViewController.m */; };
 		9F0C4BD1207EFD5300DCAA27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0C4BCF207EFD5300DCAA27 /* Main.storyboard */; };
 		9F0C4BD3207EFD5300DCAA27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0C4BD2207EFD5300DCAA27 /* Assets.xcassets */; };
 		9F0C4BD6207EFD5300DCAA27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0C4BD4207EFD5300DCAA27 /* LaunchScreen.storyboard */; };
 		9F0C4BD9207EFD5300DCAA27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C4BD8207EFD5300DCAA27 /* main.m */; };
 		9F0C4BE3207EFD5300DCAA27 /* GCDProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C4BE2207EFD5300DCAA27 /* GCDProjectTests.m */; };
 		9F0C4BEE207EFD5300DCAA27 /* GCDProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C4BED207EFD5300DCAA27 /* GCDProjectUITests.m */; };
+		9F3491F9207F51780028E658 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3491F7207F51780028E658 /* ViewController.m */; };
+		9F3491FC207F589D0028E658 /* HTFeedListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3491FB207F589D0028E658 /* HTFeedListViewController.m */; };
+		9F3491FF207F58BF0028E658 /* HTFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3491FE207F58BF0028E658 /* HTFeedModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +43,6 @@
 		9F0C4BC6207EFD5300DCAA27 /* GCDProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0C4BC9207EFD5300DCAA27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F0C4BCA207EFD5300DCAA27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F0C4BCC207EFD5300DCAA27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F0C4BCD207EFD5300DCAA27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9F0C4BD0207EFD5300DCAA27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F0C4BD2207EFD5300DCAA27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F0C4BD5207EFD5300DCAA27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +54,12 @@
 		9F0C4BE9207EFD5300DCAA27 /* GCDProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0C4BED207EFD5300DCAA27 /* GCDProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDProjectUITests.m; sourceTree = "<group>"; };
 		9F0C4BEF207EFD5300DCAA27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3491F7207F51780028E658 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F3491F8207F51780028E658 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F3491FA207F589D0028E658 /* HTFeedListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTFeedListViewController.h; sourceTree = "<group>"; };
+		9F3491FB207F589D0028E658 /* HTFeedListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTFeedListViewController.m; sourceTree = "<group>"; };
+		9F3491FD207F58BF0028E658 /* HTFeedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTFeedModel.h; sourceTree = "<group>"; };
+		9F3491FE207F58BF0028E658 /* HTFeedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTFeedModel.m; sourceTree = "<group>"; };
 		CBD1813147F04570A5E0BD31 /* Pods-GCDProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-GCDProject/Pods-GCDProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,10 +131,12 @@
 		9F0C4BC8207EFD5300DCAA27 /* GCDProject */ = {
 			isa = PBXGroup;
 			children = (
+				9F349200207F5CEE0028E658 /* Vendors */,
+				9F3491F5207F51780028E658 /* Model */,
+				9F3491F6207F51780028E658 /* View */,
+				9F3491F4207F51780028E658 /* ViewModel */,
 				9F0C4BC9207EFD5300DCAA27 /* AppDelegate.h */,
 				9F0C4BCA207EFD5300DCAA27 /* AppDelegate.m */,
-				9F0C4BCC207EFD5300DCAA27 /* ViewController.h */,
-				9F0C4BCD207EFD5300DCAA27 /* ViewController.m */,
 				9F0C4BCF207EFD5300DCAA27 /* Main.storyboard */,
 				9F0C4BD2207EFD5300DCAA27 /* Assets.xcassets */,
 				9F0C4BD4207EFD5300DCAA27 /* LaunchScreen.storyboard */,
@@ -154,6 +162,48 @@
 				9F0C4BEF207EFD5300DCAA27 /* Info.plist */,
 			);
 			path = GCDProjectUITests;
+			sourceTree = "<group>";
+		};
+		9F3491F4207F51780028E658 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9F3491F5207F51780028E658 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F3491FD207F58BF0028E658 /* HTFeedModel.h */,
+				9F3491FE207F58BF0028E658 /* HTFeedModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F3491F6207F51780028E658 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F3491F8207F51780028E658 /* ViewController.h */,
+				9F3491F7207F51780028E658 /* ViewController.m */,
+				9F3491FA207F589D0028E658 /* HTFeedListViewController.h */,
+				9F3491FB207F589D0028E658 /* HTFeedListViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F349200207F5CEE0028E658 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				9F349201207F5D0D0028E658 /* NetWorking */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		9F349201207F5D0D0028E658 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWorking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,7 +396,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F0C4BCE207EFD5300DCAA27 /* ViewController.m in Sources */,
+				9F3491FF207F58BF0028E658 /* HTFeedModel.m in Sources */,
+				9F3491FC207F589D0028E658 /* HTFeedListViewController.m in Sources */,
+				9F3491F9207F51780028E658 /* ViewController.m in Sources */,
 				9F0C4BD9207EFD5300DCAA27 /* main.m in Sources */,
 				9F0C4BCB207EFD5300DCAA27 /* AppDelegate.m in Sources */,
 			);
